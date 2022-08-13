@@ -1,0 +1,804 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project On Tailwind</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.24.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="navbar bg-base bg-orange-600 h-0">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <label tabindex="0" class="btn btn-ghost lg:hidden"></label>
+          <ul
+            tabindex="0"
+            class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base rounded-box w-52"
+          >
+            <li><a>Teachnology</a></li>
+            <li tabindex="0">
+              <a class="justify-between"> Parent </a>
+              <ul class="p-2">
+                <li><a>HTML</a></li>
+                <li><a>CSS</a></li>
+              </ul>
+            </li>
+            <li><a>Blog</a></li>
+          </ul>
+        </div>
+        <div class="w-1/6 ...">
+          <img src="./___-removebg-preview.png" alt="logo" />
+        </div>
+        <a class="btn btn-ghost normal-case text-xl">SheCODE</a>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal p-0">
+          <li><a>Home</a></li>
+          <li tabindex="0">
+            <a>About </a>
+            <ul class="p-2">
+              <li><a>Photographi</a></li>
+              <li><a>Contact-Us</a></li>
+            </ul>
+          </li>
+          <li><a>Blog</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end">
+        <a class="btn">Get started</a>
+      </div>
+    </div>
+    <!-- page star there -->
+
+    <section class="bg-blue-50 dark:text-gray-100">
+      <div
+        class="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between"
+      >
+        <div
+          class="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128"
+        >
+          <img
+            src="sass4-removebg-preview (1).png"
+            alt="sass4"
+            class="object-contain h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128"
+          />
+        </div>
+        <div
+          class="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left"
+        >
+          <h1 class="text-5xl font-bold leading-none sm:text-6xl">
+            Ac mattis <span class="text-violet-800">senectus</span> erat
+            pharetra
+          </h1>
+          <p class="mt-6 mb-8 text-lg sm:mb-12">
+            Dictum aliquam porta in condimentum ac integer
+            <br class="hidden md:inline lg:hidden" />turpis pulvinar, est
+            scelerisque ligula sem
+          </p>
+          <div
+            class="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start"
+          >
+            <a
+              rel="noopener noreferrer"
+              href="#"
+              class="px-8 py-3 text-lg font-semibold rounded bg-black text-white"
+              >Suspendisse</a
+            >
+            <a
+              rel="noopener noreferrer"
+              href="#"
+              class="px-8 py-3 text-lg font-semibold border rounded border-black"
+              >Malesuada</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- container-end -->
+    <section class="text-gray-600 bg-blue-50 body-font">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-wrap -m-4">
+          <div class="p-4 md:w-1/3">
+            <div
+              class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden"
+            >
+              <img
+                class="lg:h-48 md:h-36 w-full object-cover object-center"
+                src="masahiro-miyagi-_4NM1ez_taI-unsplash.jpg"
+                alt="blog"
+              />
+              <div class="p-6">
+                <h2
+                  class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"
+                >
+                  CATEGORY
+                </h2>
+                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                  The Catalyzer
+                </h1>
+                <p class="leading-relaxed mb-3">
+                  Photo booth fam kinfolk cold-pressed sriracha leggings
+                  jianbing microdosing tousled waistcoat.
+                </p>
+                <div class="flex items-center flex-wrap">
+                  <a
+                    class="text-orange-500 inline-flex items-center md:mb-2 lg:mb-0"
+                    >Learn More
+                    <svg
+                      class="w-4 h-4 ml-2"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M5 12h14"></path>
+                      <path d="M12 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                  <span
+                    class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200"
+                  >
+                    <svg
+                      class="w-4 h-4 mr-1"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"
+                      ></path>
+                      <circle cx="12" cy="12" r="3"></circle></svg
+                    >1.2K
+                  </span>
+                  <span
+                    class="text-gray-400 inline-flex items-center leading-none text-sm"
+                  >
+                    <svg
+                      class="w-4 h-4 mr-1"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"
+                      ></path></svg
+                    >6
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="p-4 md:w-1/3">
+            <div
+              class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden"
+            >
+              <img
+                class="lg:h-48 md:h-36 w-full object-cover object-center"
+                src="monika-normand-Qp-U7jEp5yc-unsplash.jpg"
+                alt="blog"
+              />
+              <div class="p-6">
+                <h2
+                  class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"
+                >
+                  CATEGORY
+                </h2>
+                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                  The 400 Blows
+                </h1>
+                <p class="leading-relaxed mb-3">
+                  Photo booth fam kinfolk cold-pressed sriracha leggings
+                  jianbing microdosing tousled waistcoat.
+                </p>
+                <div class="flex items-center flex-wrap">
+                  <a
+                    class="text-green-500 inline-flex items-center md:mb-2 lg:mb-0"
+                    >Learn More
+                    <svg
+                      class="w-4 h-4 ml-2"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M5 12h14"></path>
+                      <path d="M12 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                  <span
+                    class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200"
+                  >
+                    <svg
+                      class="w-4 h-4 mr-1"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"
+                      ></path>
+                      <circle cx="12" cy="12" r="3"></circle></svg
+                    >1.2K
+                  </span>
+                  <span
+                    class="text-gray-400 inline-flex items-center leading-none text-sm"
+                  >
+                    <svg
+                      class="w-4 h-4 mr-1"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"
+                      ></path></svg
+                    >6
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="p-4 md:w-1/3">
+            <div
+              class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden"
+            >
+              <img
+                class="lg:h-48 md:h-36 w-full object-cover object-center"
+                src="trent-haaland-pLOLXDcKXV4-unsplash.jpg"
+                alt="blog"
+              />
+              <div class="p-6">
+                <h2
+                  class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"
+                >
+                  CATEGORY
+                </h2>
+                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                  Shooting Stars
+                </h1>
+                <p class="leading-relaxed mb-3">
+                  Photo booth fam kinfolk cold-pressed sriracha leggings
+                  jianbing microdosing tousled waistcoat.
+                </p>
+                <div class="flex items-center flex-wrap">
+                  <a
+                    class="text-orange-500 inline-flex items-center md:mb-2 lg:mb-0"
+                    >Learn More
+                    <svg
+                      class="w-4 h-4 ml-2"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M5 12h14"></path>
+                      <path d="M12 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                  <span
+                    class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200"
+                  >
+                    <svg
+                      class="w-4 h-4 mr-1"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"
+                      ></path>
+                      <circle cx="12" cy="12" r="3"></circle></svg
+                    >1.2K
+                  </span>
+                  <span
+                    class="text-gray-400 inline-flex items-center leading-none text-sm"
+                  >
+                    <svg
+                      class="w-4 h-4 mr-1"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"
+                      ></path></svg
+                    >6
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- another section start here -4 -->
+    <section class="text-gray-600 body-font bg-blue-50">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-wrap -mx-4 -mb-10 text-center">
+          <div class="sm:w-1/2 mb-10 px-4">
+            <div class="rounded-lg h-64 overflow-hidden">
+              <img
+                alt="content"
+                class="object-cover object-center h-full w-full"
+                src="alexander-park-LAk7vroTiTU-unsplash.jpg"
+              />
+            </div>
+            <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">
+              Buy YouTube Videos
+            </h2>
+            <p class="leading-relaxed text-base">
+              Williamsburg occupy sustainable snackwave gochujang. Pinterest
+              cornhole brunch, slow-carb neutra irony.
+            </p>
+            <button
+              type="button"
+              class="px-8 py-3 mt-6 font-semibold border rounded dark:border-gray-100 text-white bg-black"
+            >
+              Border
+            </button>
+          </div>
+          <div class="sm:w-1/2 mb-10 px-4">
+            <div class="rounded-lg h-64 overflow-hidden">
+              <img
+                alt="content"
+                class="object-cover object-center h-full w-full"
+                src="trent-haaland-pLOLXDcKXV4-unsplash.jpg"
+              />
+            </div>
+            <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">
+              The Catalyzer
+            </h2>
+            <p class="leading-relaxed text-base">
+              Williamsburg occupy sustainable snackwave gochujang. Pinterest
+              cornhole brunch, slow-carb neutra irony.
+            </p>
+            <button
+              type="button"
+              class="px-8 py-3 mt-6 font-semibold border rounded dark:border-gray-100 text-white bg-black"
+            >
+              Border
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- new container here -->
+    <section class="dark:bg-gray-800 dark:text-gray-100 bg-blue-50">
+      <div
+        class="container grid grid-cols-1 gap-6 m-4 mx-auto md:m-0 md:grid-cols-2 xl:grid-cols-3"
+      >
+        <div
+          class="flex overflow-hidden rounded-lg dark:bg-gray-900 dark:text-gray-100"
+        >
+          <div
+            class="flex items-center justify-center px-4 dark:bg-violet-400 dark:text-gray-800"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              fill="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                d="M487.938,162.108l-224-128a16,16,0,0,0-15.876,0l-224,128a16,16,0,0,0,.382,28l224,120a16,16,0,0,0,15.112,0l224-120a16,16,0,0,0,.382-28ZM256,277.849,65.039,175.548,256,66.428l190.961,109.12Z"
+              ></path>
+              <path
+                d="M263.711,394.02,480,275.061V238.539L256,361.74,32,238.539v36.522L248.289,394.02a16.005,16.005,0,0,0,15.422,0Z"
+              ></path>
+              <path
+                d="M32,362.667,248.471,478.118a16,16,0,0,0,15.058,0L480,362.667V326.4L256,445.867,32,326.4Z"
+              ></path>
+            </svg>
+          </div>
+          <div class="flex items-center justify-between flex-1 p-3">
+            <p class="text-2xl font-semibold">200+</p>
+            <p>Projects</p>
+          </div>
+        </div>
+        <div
+          class="flex overflow-hidden rounded-lg dark:bg-gray-900 dark:text-gray-100"
+        >
+          <div
+            class="flex items-center justify-center px-4 dark:bg-violet-400 dark:text-gray-800"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              fill="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                d="M462.541,316.3l-64.344-42.1,24.774-45.418A79.124,79.124,0,0,0,432.093,192V120A103.941,103.941,0,0,0,257.484,43.523L279.232,67a71.989,71.989,0,0,1,120.861,53v72a46.809,46.809,0,0,1-5.215,21.452L355.962,284.8l89.058,58.274a42.16,42.16,0,0,1,19.073,35.421V432h-72v32h104V378.494A74.061,74.061,0,0,0,462.541,316.3Z"
+              ></path>
+              <path
+                d="M318.541,348.3l-64.343-42.1,24.773-45.418A79.124,79.124,0,0,0,288.093,224V152A104.212,104.212,0,0,0,184.04,47.866C126.723,47.866,80.093,94.581,80.093,152v72a78,78,0,0,0,9.015,36.775l24.908,45.664L50.047,348.3A74.022,74.022,0,0,0,16.5,410.4L16,496H352.093V410.494A74.061,74.061,0,0,0,318.541,348.3ZM320.093,464H48.186l.31-53.506a42.158,42.158,0,0,1,19.073-35.421l88.682-58.029L117.2,245.452A46.838,46.838,0,0,1,112.093,224V152a72,72,0,1,1,144,0v72a46.809,46.809,0,0,1-5.215,21.452L211.962,316.8l89.058,58.274a42.16,42.16,0,0,1,19.073,35.421Z"
+              ></path>
+            </svg>
+          </div>
+          <div class="flex items-center justify-between flex-1 p-3">
+            <p class="text-2xl font-semibold">7 500+</p>
+            <p>Customers</p>
+          </div>
+        </div>
+        <div
+          class="flex overflow-hidden rounded-lg dark:bg-gray-900 dark:text-gray-100"
+        >
+          <div
+            class="flex items-center justify-center px-4 dark:bg-violet-400 dark:text-gray-800"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              fill="currentColor"
+              class="w-6 h-6"
+            >
+              <polygon
+                points="328.375 384 332.073 458.999 256.211 406.28 179.924 459.049 183.625 384 151.586 384 146.064 496 182.756 496 256.169 445.22 329.242 496 365.936 496 360.414 384 328.375 384"
+              ></polygon>
+              <path
+                d="M415.409,154.914l-2.194-48.054L372.7,80.933,346.768,40.414l-48.055-2.2L256,16.093,213.287,38.219l-48.055,2.2L139.3,80.933,98.785,106.86l-2.194,48.054L74.464,197.628l22.127,42.715,2.2,48.053L139.3,314.323l25.928,40.52,48.055,2.195L256,379.164l42.713-22.126,48.055-2.195,25.928-40.52L413.214,288.4l2.195-48.053,22.127-42.715Zm-31.646,76.949L382,270.377l-32.475,20.78-20.78,32.475-38.515,1.76L256,343.125l-34.234-17.733-38.515-1.76-20.78-32.475L130,270.377l-1.759-38.514L110.5,197.628,128.237,163.4,130,124.88,162.471,104.1l20.78-32.474,38.515-1.76L256,52.132l34.234,17.733,38.515,1.76,20.78,32.474L382,124.88l1.759,38.515L401.5,197.628Z"
+              ></path>
+            </svg>
+          </div>
+          <div class="flex items-center justify-between flex-1 p-3">
+            <p class="text-2xl font-semibold">14</p>
+            <p>Awards</p>
+          </div>
+        </div>
+        <div
+          class="flex overflow-hidden rounded-lg dark:bg-gray-900 dark:text-gray-100"
+        >
+          <div
+            class="flex items-center justify-center px-4 dark:bg-violet-400 dark:text-gray-800"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              fill="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                d="M256.25,16A240,240,0,0,0,88,84.977V16H56V144H184V112H106.287A208,208,0,0,1,256.25,48C370.8,48,464,141.2,464,255.75S370.8,463.5,256.25,463.5,48.5,370.3,48.5,255.75h-32A239.75,239.75,0,0,0,425.779,425.279,239.75,239.75,0,0,0,256.25,16Z"
+              ></path>
+              <polygon
+                points="240 111.951 239.465 288 368 288 368 256 271.563 256 272 112.049 240 111.951"
+              ></polygon>
+            </svg>
+          </div>
+          <div class="flex items-center justify-between flex-1 p-3">
+            <p class="text-2xl font-semibold">24/7 h</p>
+            <p>Support</p>
+          </div>
+        </div>
+        <div
+          class="flex overflow-hidden rounded-lg dark:bg-gray-900 dark:text-gray-100"
+        >
+          <div
+            class="flex items-center justify-center px-4 dark:bg-violet-400 dark:text-gray-800"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              fill="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                d="M415.313,358.7c36.453-36.452,55.906-85.231,54.779-137.353-1.112-51.375-21.964-99.908-58.715-136.66L388.75,107.314A166.816,166.816,0,0,1,438.1,222.039c.937,43.313-15.191,83.81-45.463,114.083l-48.617,49.051.044-89.165-32-.016L311.992,440H456.063V408H366.449Z"
+              ></path>
+              <path
+                d="M47.937,112h89.614L88.687,161.3c-36.453,36.451-55.906,85.231-54.779,137.352a198.676,198.676,0,0,0,58.715,136.66l22.627-22.627A166.818,166.818,0,0,1,65.9,297.962c-.937-43.314,15.191-83.811,45.463-114.083l48.617-49.051-.044,89.165,32,.015L192.008,80H47.937Z"
+              ></path>
+            </svg>
+          </div>
+          <div class="flex items-center justify-between flex-1 p-3">
+            <p class="text-2xl font-semibold">99,9 %</p>
+            <p>Uptime</p>
+          </div>
+        </div>
+        <div
+          class="flex overflow-hidden rounded-lg dark:bg-gray-900 dark:text-gray-100"
+        >
+          <div
+            class="flex items-center justify-center px-4 dark:bg-violet-400 dark:text-gray-800"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              fill="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                d="M416,180H320V340h96a20.023,20.023,0,0,0,20-20V200A20.023,20.023,0,0,0,416,180ZM404,308H352V212h52Z"
+              ></path>
+              <path
+                d="M436.574,120H352V64H32V408a64.072,64.072,0,0,0,64,64H288a64.072,64.072,0,0,0,64-64v-8h84.574A59.493,59.493,0,0,0,496,340.574V179.426A59.493,59.493,0,0,0,436.574,120ZM464,340.574A27.457,27.457,0,0,1,436.574,368H320v40a32.036,32.036,0,0,1-32,32H96a32.036,32.036,0,0,1-32-32V96H320v56H436.574A27.457,27.457,0,0,1,464,179.426Z"
+              ></path>
+            </svg>
+          </div>
+          <div class="flex items-center justify-between flex-1 p-3">
+            <p class="text-2xl font-semibold">720 L</p>
+            <p>Coffee</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer section start here -->
+    <footer class="text-gray-600 body-font bg-blue-50">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-wrap md:text-left text-center -mb-10 -mx-4">
+          <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+            <h2
+              class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3"
+            >
+              CATEGORIES
+            </h2>
+            <nav class="list-none mb-10">
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">First Link</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+              </li>
+            </nav>
+          </div>
+          <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+            <h2
+              class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3"
+            >
+              CATEGORIES
+            </h2>
+            <nav class="list-none mb-10">
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">First Link</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+              </li>
+            </nav>
+          </div>
+          <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+            <h2
+              class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3"
+            >
+              CATEGORIES
+            </h2>
+            <nav class="list-none mb-10">
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">First Link</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+              </li>
+            </nav>
+          </div>
+          <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+            <h2
+              class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3"
+            >
+              CATEGORIES
+            </h2>
+            <nav class="list-none mb-10">
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">First Link</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+              </li>
+            </nav>
+          </div>
+          <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+            <h2
+              class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3"
+            >
+              CATEGORIES
+            </h2>
+            <nav class="list-none mb-10">
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">First Link</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+              </li>
+            </nav>
+          </div>
+          <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+            <h2
+              class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3"
+            >
+              CATEGORIES
+            </h2>
+            <nav class="list-none mb-10">
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">First Link</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+              </li>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="border-t border-gray-200">
+        <div class="container px-5 py-8 flex flex-wrap mx-auto items-center">
+          <div
+            class="flex md:flex-nowrap flex-wrap justify-center items-end md:justify-start"
+          >
+            <div class="relative sm:w-64 w-40 sm:mr-4 mr-2">
+              <label for="footer-field" class="leading-7 text-sm text-gray-600"
+                >Placeholder</label
+              >
+              <input
+                type="text"
+                id="footer-field"
+                name="footer-field"
+                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:ring-2 focus:bg-transparent focus:ring-yellow-200 focus:border-yellow-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              />
+            </div>
+            <button
+              class="inline-flex text-white bg-black border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded"
+            >
+              Button
+            </button>
+
+            <p
+              class="text-gray-500 text-sm md:ml-6 md:mt-0 mt-2 sm:text-left text-center"
+            >
+              Bitters chicharrones fanny pack
+              <br class="lg:block hidden" />waistcoat green juice
+            </p>
+          </div>
+          <span
+            class="inline-flex lg:ml-auto lg:mt-0 mt-6 w-full justify-center md:justify-start md:w-auto"
+          >
+            <a class="text-gray-500">
+              <svg
+                fill="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-5 h-5"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
+                ></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-500">
+              <svg
+                fill="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-5 h-5"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
+                ></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-500">
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-5 h-5"
+                viewBox="0 0 24 24"
+              >
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                <path
+                  d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"
+                ></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-500">
+              <svg
+                fill="currentColor"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="0"
+                class="w-5 h-5"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke="none"
+                  d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
+                ></path>
+                <circle cx="4" cy="4" r="2" stroke="none"></circle>
+              </svg>
+            </a>
+          </span>
+        </div>
+      </div>
+      <div class="bg-gray-100">
+        <div
+          class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row bg-black"
+        >
+          <p class="text-gray-500 text-sm text-center sm:text-left">
+            © 2022 SheCODE —
+            <a
+              href="https://twitter.com/knyttneve"
+              class="text-gray-600 ml-1"
+              target="_blank"
+              rel="noopener noreferrer"
+              >@SheCODE</a
+            >
+          </p>
+          <span
+            class="sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-left text-center text-gray-500 text-sm"
+            >Enamel pin tousled raclette tacos irony</span
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
